@@ -1,0 +1,12 @@
+/* Footer Styling */
+.footer_container {
+  height: 50px;
+  background-color: rgba(8, 91, 19, 0.99);
+  color:white;
+}
+
+.footer_container p {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 17px;
+}

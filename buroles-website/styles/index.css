@@ -1,0 +1,68 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-image: url("/img/bes_background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+ /* background-image: linear-gradient(rgb(241, 246, 242), rgba(20, 136, 35, 0.99));*/
+}
+
+
+/* Container Styling */
+.form-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/*Sub Options Styling*/
+.sub-options-container {
+  display: flex;
+  margin-top: auto;
+  width: auto;
+  height:180px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.feedback-options a,
+.faqs-options a {
+  text-decoration: none;
+  color: white
+}
+
+.faqs-options,
+.feedback-options {
+  width: auto;
+  height: 80px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgb(7, 90, 25);
+  border-radius: 40px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.faqs-options h1,
+.feedback-options h1{
+  color: white;
+  font-size: 20px;
+}
+
+.options-icon {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  filter: invert(1);
+}

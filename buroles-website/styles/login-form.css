@@ -1,0 +1,110 @@
+/* Login Form Styling */
+.login-form {
+  width: 600px;
+  height: 430px;
+  margin-left: 200px;
+  margin-top: 145px;
+  margin-bottom: 84px;
+  padding:20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f98a;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.login-form p {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.bes-logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+
+.bes-header {
+  background-color: rgb(10, 130, 26);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.login-form label {
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.login-form ::placeholder{
+  color: #ccc;
+  font-size: 15px;
+}
+
+.login-form input{
+  width: 100%;
+}
+
+.login-form input{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(8, 91, 19, 0.99);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-form button:hover {
+  background-color: rgb(26, 183, 47);
+}
+
+
+/*Icon Styles*/
+.user-icon,
+.pass-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+
+}
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+.input-group input {
+  flex: 1;
+}
+
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .login-form {
+    padding: 15px;
+  }
+
+  .login-form input,
+  .login-form button {
+    font-size: 14px;
+  }
+}
